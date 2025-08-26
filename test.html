@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .test-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="test-box">
+        <h1>🚀 Server Test Page</h1>
+        <p>If you can see this page, the server is working correctly!</p>
+        <p>Current time: <span id="time"></span></p>
+        <button onclick="testJS()" style="padding: 10px 20px; font-size: 16px; background: #ff6b6b; color: white; border: none; border-radius: 5px; cursor: pointer;">Test JavaScript</button>
+        <div id="jsResult" style="margin-top: 20px;"></div>
+    </div>
+    
+    <script>
+        // Update time every second
+        function updateTime() {
+            document.getElementById('time').textContent = new Date().toLocaleTimeString();
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+        
+        // Test JavaScript functionality
+        function testJS() {
+            document.getElementById('jsResult').innerHTML = '<p style="color: #4CAF50;">✅ JavaScript is working!</p>';
+        }
+        
+        console.log('Test page loaded successfully');
+    </script>
+</body>
+</html>

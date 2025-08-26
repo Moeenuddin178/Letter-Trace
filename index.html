@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Tracer</title>
+    <link rel="icon" data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✏️</text></svg>" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Start Screen -->
+        <div id="startScreen" class="start-screen">
+            <div class="start-content">
+                <h1 class="start-title">Letter Tracer</h1>
+                <p class="start-subtitle">Learn to write letters with fun!</p>
+                <div class="start-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">✏️</span>
+                        <span>Trace colorful letters</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🔊</span>
+                        <span>Hear letter sounds</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎨</span>
+                        <span>Beautiful brush effects</span>
+                    </div>
+                </div>
+                <button id="startButton" class="start-button">
+                    <span class="button-text">Start Learning!</span>
+                    <span class="button-icon">🚀</span>
+                </button>
+                <p class="start-instructions">Click to begin your letter tracing journey</p>
+            </div>
+        </div>
+
+        <!-- Alphabet Selection Screen -->
+        <div id="alphabetScreen" class="alphabet-screen" style="display: none;">
+            <div class="alphabet-content">
+                <h2 class="alphabet-title">Choose a Letter to Trace</h2>
+                <p class="alphabet-subtitle">Click on any letter to start tracing!</p>
+                
+                <div class="alphabet-grid" id="alphabetGrid">
+                    <!-- Letters will be dynamically generated here -->
+                </div>
+                
+                <div class="alphabet-controls">
+                    <button id="randomLetterBtn" class="control-button random-btn">
+                        <span class="button-icon">🎲</span>
+                        <span>Random Letter</span>
+                    </button>
+                    <button id="backToStartBtn" class="control-button back-btn">
+                        <span class="button-icon">🔙</span>
+                        <span>Back to Start</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading indicator -->
+        <div id="loading" class="loading" style="display: none;">
+            <div class="loading-text">Loading Letter Tracer...</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+
+        <!-- Game canvas -->
+        <canvas id="gameCanvas" width="360" height="640" style="display: none;"></canvas>
+        
+        <!-- Instructions -->
+        <div id="instructions" class="instructions" style="display: none;">
+            <div id="currentLetterDisplay" class="current-letter-display">
+                <h3 style="margin: 0; color: #667eea;">Tracing: <span id="currentLetterText">A</span></h3>
+            </div>
+            <p style="margin: 5px 0; font-size: 14px;">Trace the letter with your finger or mouse!</p>
+        </div>
+        
+        <!-- Navigation Toolbar -->
+        <div id="navigationToolbar" class="navigation-toolbar" style="display: none;">
+            <button id="chooseLetterBtn" class="toolbar-btn">
+                <span>📚</span>
+                <span>Choose</span>
+            </button>
+            <button id="prevLetterBtn" class="toolbar-btn secondary">
+                <span>⏮️</span>
+                <span>Previous</span>
+            </button>
+            <button id="nextLetterBtn" class="toolbar-btn">
+                <span>⏭️</span>
+                <span>Next</span>
+            </button>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

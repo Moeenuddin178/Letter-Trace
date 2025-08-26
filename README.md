@@ -1,6 +1,6 @@
 # 🎯 Letter Tracer - Interactive Learning App
 
-[![Demo](https://img.shields.io/badge/Demo-Live%20App-blue)](https://your-username.github.io/letter-tracer)
+[![Demo](https://img.shields.io/badge/Demo-Live%20App-blue)](https://moeenuddin178.github.io/Letter-Trace)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -36,8 +36,8 @@ An interactive letter tracing application for young children, built with pure HT
 ### Option 1: Direct Download
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/letter-tracer.git
-cd letter-tracer
+git clone https://github.com/Moeenuddin178/Letter-Trace.git
+cd Letter-Trace
 
 # Serve locally (choose one method)
 python3 -m http.server 8080        # Python 3
@@ -52,7 +52,7 @@ open http://localhost:8080
 1. Fork this repository
 2. Go to Settings → Pages
 3. Select "Deploy from a branch" → "main"
-4. Your app will be available at `https://your-username.github.io/letter-tracer`
+4. Your app will be available at `https://Moeenuddin178.github.io/Letter-Trace`
 
 ## 🎮 How to Use
 
@@ -101,7 +101,7 @@ const hue = (theta * 180 / Math.PI) % 360;
 ## 📁 Project Structure
 
 ```
-letter-tracer/
+Letter-Trace/
 ├── index.html              # Main application entry point
 ├── script.js               # Core game logic (40KB)
 ├── styles.css              # Responsive styling and layout
@@ -144,7 +144,7 @@ letter-tracer/
 1. Fork this repository
 2. Enable GitHub Pages in repository settings
 3. Select "Deploy from a branch" → "main"
-4. Access via `https://your-username.github.io/letter-tracer`
+4. Access via `https://Moeenuddin178.github.io/Letter-Trace`
 
 ### Netlify
 1. Connect your GitHub repository
@@ -205,8 +205,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/your-username/letter-tracer/issues)
-- 💡 **Feature Requests**: [Start a discussion](https://github.com/your-username/letter-tracer/discussions)
+- 🐛 **Bug Reports**: [Open an issue](https://github.com/Moeenuddin178/Letter-Trace/issues)
+- 💡 **Feature Requests**: [Start a discussion](https://github.com/Moeenuddin178/Letter-Trace/discussions)
 - 📧 **Contact**: [your-email@example.com](mailto:your-email@example.com)
 
 ---

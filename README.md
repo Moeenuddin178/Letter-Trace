@@ -8,6 +8,12 @@
 
 An interactive letter tracing application for young children, built with pure HTML, CSS, and JavaScript. Based on the Montessori sandpaper letters methodology, this educational tool helps children learn proper letter formation through guided tracing exercises.
 
+## 🎮 Play Online
+
+**[🚀 Click here to play the game!](https://moeenuddin178.github.io/Letter-Trace)**
+
+*No installation required - works on desktop, tablet, and mobile devices*
+
 ![Letter Tracer Demo](assets/demo.gif)
 
 ## ✨ Features

@@ -205,9 +205,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
+### 🎨 Inspiration & Assets
+This project is inspired by and builds upon the excellent work from:
+
+- **[Original Letter Tracer](https://github.com/glmaljkovich/lettertracer)** by @glmaljkovich
+  - 🎯 **Core Concept**: Go/Ebiten implementation that inspired this HTML5 version
+  - 🖼️ **Visual Assets**: Letter overlay images and sandpaper texture concepts
+  - 🔊 **Audio Resources**: Letter pronunciation sounds and drawing effect inspiration
+  - 🎓 **Educational Framework**: Montessori sandpaper letters methodology
+
+### 📚 Educational Foundation
 - **Montessori Method**: Educational approach by Dr. Maria Montessori
-- **Original Concept**: Based on Go/Ebiten WebAssembly implementation
+- **Sandpaper Letters**: Tactile learning technique for letter formation
+- **Multi-sensory Learning**: Visual, auditory, and kinesthetic engagement
+
+### 🛠️ Technical Stack
 - **Web Technologies**: HTML5 Canvas, Web Audio API, JavaScript ES6+
+- **Cross-platform Design**: Responsive touch and mouse interaction
+- **Modern Browser APIs**: Canvas 2D, RequestAnimationFrame, Web Audio
 
 ## 📞 Support
 
